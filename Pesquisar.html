@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>MUSISYS</h1>
+
+<div class="section">
+    <h2>Pesquisa básica</h2>
+    <form action="PesquisaBasica.php" method="post">
+        <label for="codigoPesquisa">Código do Artista:</label>
+        <input type="text" name="codigoPesquisa">
+        <center>
+            <input type="submit" value="Pesquisar">
+        </center>
+    </form>
+</div>
+
+<div class="section">
+    <h2>Pesquisa Avançada</h2><br>
+    <form method="post" action="PesquisaAvancada.php">
+        <label for="palcoAtuado">Número do palco onde já atuou:</label>
+        <input type="number" name="palcoAtuado" required>
+        
+        <label for="entrevistaMin">Número mínimo de entrevistas:</label>
+        <input type="text" name="entrevistaMin" cols="30" rows="1" required></text>
+    <center>
+        <input type="submit" name="Submit" value="Pesquisar">
+        <input type="reset" name="Reset" value="Limpar">
+    </center>
+    </form>
+</div>
+<br>
+<center>
+<div class="voltar">
+    <form action="MenuMusisys.html" method="post">
+    <input type="submit" name="Submit" value="voltar ao menu">
+</div>
+</center>

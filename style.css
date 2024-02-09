@@ -1,0 +1,149 @@
+body {
+    font-family: Palatino;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to left, #000000,#363636 , #000000);
+}
+h1 {
+    font-family: Didot ;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+    margin: 0;
+    font-size: 5em;
+}
+h2 {
+    font-family: Lucida Bright;
+    color: #000000;
+    padding: 5px 0;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.6em;
+    margin: 0 140px 0 140px;
+}
+.section {
+    background-color: #636363;
+    width:45%;
+    margin: auto ;
+    margin-bottom: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 40px; /* This will give you rounded borders */
+    align-items: center ;
+}
+.styled-table {   
+    background-color: #636363;
+    width: 75%;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    padding: 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    border-radius: 40px; /* This will give your table rounded borders */
+}
+
+.styled-table th {
+    background-color: #414141;
+    text-align: center;
+    padding: 10px;
+}
+
+.styled-table td {
+    text-align: center;
+    background-color: #989898;
+    border: 3px solid #414141;
+}
+.styled-table tr  {
+    border: #000000;
+}
+
+.voltar {
+    cursor: pointer;
+}
+.voltar input[type="submit"] {
+    border-style: solid;
+    background-color: #696969;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="text"] {
+    border-style: solid;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 10px; /* This will give your input fields rounded borders */
+}
+input[type="text"]:hover {
+    background-color: #b9b9b9;
+}
+input[type="submit"] {
+    border-style: solid;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+}
+input[type="reset"] {
+    border-style: solid;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+}
+input[type="submit"]:hover {
+    background-color: #444;
+}
+input[type="reset"]:hover {
+    background-color: #444;
+}
+input[type="number"] {
+    border-style: solid;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px ;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+input[type="number"]:hover {
+    background-color: #b9b9b9;
+}
+input[type="date"] {
+    border-style: solid;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 10px; /* This will give your input fields rounded borders */
+}
+input[type="date"]:hover {
+    background-color: #b9b9b9;
+}
+label {
+    margin-left: 10%;
+    font-size: 20px;
+}
